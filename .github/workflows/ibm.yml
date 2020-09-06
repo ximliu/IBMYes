@@ -27,7 +27,7 @@ jobs:
         $IBM_ACCOUNT
         $REGION_NUM
         no
-        EOF
+        EOF.
     - name: Target IBM Cloud
       env:
         RESOURSE_ID: ${{ secrets.RESOURSE_ID }}
